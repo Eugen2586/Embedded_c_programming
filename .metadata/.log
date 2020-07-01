@@ -1,0 +1,21 @@
+!SESSION 2020-07-01 15:08:26.148 -----------------------------------------------
+eclipse.buildId=Version 1.3.0
+java.version=1.8.0_242
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2020-07-01 15:08:34.254
+!MESSAGE Log4j initialized with config file C:\Users\Christian\Desktop\Projektarbeit_Embedded_C\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2020-07-01 15:08:35.644
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2020-07-01 15:08:36.465
+!MESSAGE com.st.stm32cube.ide.mcu.ide/META-INF/version/build_ref file not found, build reference will not be reported into properties
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-07-01 15:14:06.157
+!MESSAGE Indexed 'Aufgabe01_ChrisKuellmer_35216135' (0 sources, 0 headers) in 0.003 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-07-01 15:14:10.187
+!MESSAGE Indexed 'Aufgabe01_ChrisKuellmer_35216135' (22 sources, 27 headers) in 2.57 sec: 2,545 declarations; 18,751 references; 6 unresolved inclusions; 65 syntax errors; 2,698 unresolved names (11%)
