@@ -1,0 +1,3 @@
+DHT11.c:10:5:initialize_sensor	16	static
+DHT11.c:23:5:read_sensor	4	static
+DHT11.c:29:5:close_sensor	16	static
