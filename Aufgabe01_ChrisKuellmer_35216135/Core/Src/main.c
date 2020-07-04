@@ -96,10 +96,13 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	  /*
+	   * Change implementation to 10 hz.
+	   * */
 	  HAL_GPIO_WritePin ( LD2_GPIO_Port , LD2_Pin , GPIO_PIN_RESET ) ;
-	  HAL_Delay (100) ;
+	  HAL_Delay (50) ;
 	  HAL_GPIO_WritePin ( LD2_GPIO_Port , LD2_Pin , GPIO_PIN_SET ) ;
-	  HAL_Delay (100) ;
+	  HAL_Delay (50) ;
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

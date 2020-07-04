@@ -40,8 +40,8 @@ Aufgabe01_ChrisKuellmer_35216135.bin \
 all: Aufgabe01_ChrisKuellmer_35216135.elf secondary-outputs
 
 # Tool invocations
-Aufgabe01_ChrisKuellmer_35216135.elf: $(OBJS) $(USER_OBJS) C:\Users\Christian\Desktop\Projektarbeit_Embedded_C\Embedded_c_programming\Aufgabe01_ChrisKuellmer_35216135\STM32F446RETX_FLASH.ld
-	arm-none-eabi-gcc -o "Aufgabe01_ChrisKuellmer_35216135.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\Christian\Desktop\Projektarbeit_Embedded_C\Embedded_c_programming\Aufgabe01_ChrisKuellmer_35216135\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Aufgabe01_ChrisKuellmer_35216135.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Aufgabe01_ChrisKuellmer_35216135.elf: $(OBJS) $(USER_OBJS) C:\Users\Christian\Desktop\Projektarbeit_Embedded_C\Embedded_c_programming_blinken_mit_10_hz\Aufgabe01_ChrisKuellmer_35216135\STM32F446RETX_FLASH.ld
+	arm-none-eabi-gcc -o "Aufgabe01_ChrisKuellmer_35216135.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\Christian\Desktop\Projektarbeit_Embedded_C\Embedded_c_programming_blinken_mit_10_hz\Aufgabe01_ChrisKuellmer_35216135\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Aufgabe01_ChrisKuellmer_35216135.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
